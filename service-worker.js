@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/2020-04-27-conways-game-easier-with-examples/precache-manifest.565c165b8415279135c455e2732d9a88.js"
+  "/2020-04-27-conways-game-easier-with-examples/precache-manifest.4914f07c3223178fde7d3882cec94036.js"
 );
 
 self.addEventListener('message', (event) => {

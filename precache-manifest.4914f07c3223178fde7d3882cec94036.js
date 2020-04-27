@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1140e0c8fad6009b5b8245979f5860bb",
+    "revision": "45241750756e55aec468bb44af974e68",
     "url": "/2020-04-27-conways-game-easier-with-examples/index.html"
   },
   {
-    "revision": "2b7c8c9e208f1b12f17c",
-    "url": "/2020-04-27-conways-game-easier-with-examples/static/css/main.d61e61df.chunk.css"
+    "revision": "6f17f9b4277fdaf04374",
+    "url": "/2020-04-27-conways-game-easier-with-examples/static/css/main.860a4cdc.chunk.css"
   },
   {
     "revision": "9d62dc99a168a6426aaf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b7c8c9e208f1b12f17c",
-    "url": "/2020-04-27-conways-game-easier-with-examples/static/js/main.d6014468.chunk.js"
+    "revision": "6f17f9b4277fdaf04374",
+    "url": "/2020-04-27-conways-game-easier-with-examples/static/js/main.492ff17f.chunk.js"
   },
   {
     "revision": "2e34ee0e6ce23bf9d934",
