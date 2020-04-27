@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2020-04-27-conways-game-easier-with-examples/static/css/main.860a4cdc.chunk.css",
+    "main.css": "/2020-04-27-conways-game-easier-with-examples/static/css/main.7f948b7d.chunk.css",
     "main.js": "/2020-04-27-conways-game-easier-with-examples/static/js/main.492ff17f.chunk.js",
     "main.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/main.492ff17f.chunk.js.map",
     "runtime-main.js": "/2020-04-27-conways-game-easier-with-examples/static/js/runtime-main.5badc296.js",
@@ -8,15 +8,15 @@
     "static/js/2.c62b1faa.chunk.js": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js",
     "static/js/2.c62b1faa.chunk.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js.map",
     "index.html": "/2020-04-27-conways-game-easier-with-examples/index.html",
-    "precache-manifest.4914f07c3223178fde7d3882cec94036.js": "/2020-04-27-conways-game-easier-with-examples/precache-manifest.4914f07c3223178fde7d3882cec94036.js",
+    "precache-manifest.2fbc9cc4dc9fbb5614d74569e69e2145.js": "/2020-04-27-conways-game-easier-with-examples/precache-manifest.2fbc9cc4dc9fbb5614d74569e69e2145.js",
     "service-worker.js": "/2020-04-27-conways-game-easier-with-examples/service-worker.js",
-    "static/css/main.860a4cdc.chunk.css.map": "/2020-04-27-conways-game-easier-with-examples/static/css/main.860a4cdc.chunk.css.map",
+    "static/css/main.7f948b7d.chunk.css.map": "/2020-04-27-conways-game-easier-with-examples/static/css/main.7f948b7d.chunk.css.map",
     "static/js/2.c62b1faa.chunk.js.LICENSE.txt": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5badc296.js",
     "static/js/2.c62b1faa.chunk.js",
-    "static/css/main.860a4cdc.chunk.css",
+    "static/css/main.7f948b7d.chunk.css",
     "static/js/main.492ff17f.chunk.js"
   ]
 }
