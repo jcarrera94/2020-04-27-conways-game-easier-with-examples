@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
 import './App.css';
 import Game from './components/game';
+import { Dropdown } from 'semantic-ui-react';
+
+const speedOptions = [
+  { key: 'slowest', text: 'slowest', value: 2500 },
+  { key: 'slower', text: 'slower', value: 1800 },
+  { key: 'normal', text: 'normal', value: 1000 },
+  { key: 'faster', text: 'faster', value: 500 },
+  { key: 'fastest', text: 'fastest', value: 100 },
+];
 
 function App() {
 
   const [rows, setRows] = useState();
   const [cols, setCols] = useState();
   const [speed, setSpeed] = useState(1000);
+  const [running, setRunning] = useState(false)
 
   return (
     <div className="App">
@@ -15,7 +25,7 @@ function App() {
       </header>
       <div className='container'>
         <section className='section-controls'>
-          <h2>Format board size</h2>
+          <h2>Game Controls</h2>
           <label>
             Rows:
           </label>
@@ -35,13 +45,15 @@ function App() {
           <label>
             Speed:
           </label>
-          <button onClick={() => speed < 101 ? setSpeed(100) : setSpeed(speed - 100)}>speed up</button>
-          <button onClick={() => speed > 2500 ? setSpeed(2500) : setSpeed(speed + 100)}>slow down</button>
+          <select onChange={e => setSpeed(e.target.value)}>
+            {speedOptions.map(opt => (
+              <option value={opt.value} selected={opt.value === 1000 ? true : false} key={opt.key}>{opt.text}</option>
+            ))}
+          </select>
+          <label>Play/Pause: </label>
+          <button onClick={() => setRunning(!running)}>{running ? 'stop' : 'play'}</button>
         </section>
-        <section className='section-game'>
-
-        </section>
-        <Game rows={rows} cols={cols} speed={speed}/>
+        <Game rows={rows || 10} cols={cols || 10} speed={speed} running={running} />
       </div>
     </div>
   );
