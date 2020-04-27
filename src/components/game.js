@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import produce from 'immer';
-const { ConwaysGameEngine, defaultRules } = require('@monarchwadia/conways-game-engine');
+const { ConwaysGameEngine } = require('@monarchwadia/conways-game-engine');
 
 const neighborLocations = [
   [0, 1],
@@ -35,11 +35,12 @@ const Game = ({ speed, rows, cols, running }) => {
     setGrid(engine.world);
 
   }, [rows, cols]);
-
+  
   useEffect(() => {
     if (running) {
       runSimulation();
     }
+    // eslint-disable-next-line
   }, [running]);
 
   const runSimulation = useCallback(
@@ -72,6 +73,7 @@ const Game = ({ speed, rows, cols, running }) => {
   
       setTimeout(runSimulation, speedRef.current);
     },
+    // eslint-disable-next-line
     [grid, speed],
   )
 

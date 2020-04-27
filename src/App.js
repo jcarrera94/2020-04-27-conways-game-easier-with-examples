@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import Game from './components/game';
-import { Dropdown } from 'semantic-ui-react';
 
 const speedOptions = [
   { key: 'slowest', text: 'slowest', value: 2500 },
