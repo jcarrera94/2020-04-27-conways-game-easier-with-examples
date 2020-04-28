@@ -14,28 +14,42 @@
 
 .container {
   display: flex;
-  width: 80%;
+  width: 90%;
   flex-direction: column;
   align-items: center;
+  color: #cfcfcf;
 }
 
 .section-controls {
-  color: #cfcfcf;
+  display: flex;
   font-size: 1.12em;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-controls label {
   margin: 0.7em 0.7em 1em 1.5em ;
 }
 
+.slider {
+  display: flex;
+  width: 150px;
+  align-self: center;
+}
+
+.section-game {
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 100%;
+  height: 60vh;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+}
 
 .game {
-  margin: 50px;
   background-color: #282c34;
-  display: flex;
-  width: 90%;
-  height: 40vh;
-  flex-direction: row;
-  overflow-y: auto;
 }

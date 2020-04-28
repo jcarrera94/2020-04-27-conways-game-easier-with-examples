@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://jcarrera94.github.io/2020-04-27-conways-game-easier-with-examples",
   "dependencies": {
+    "@material-ui/core": "^4.9.12",
     "@monarchwadia/conways-game-engine": "^1.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

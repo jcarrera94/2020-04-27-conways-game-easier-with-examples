@@ -13,7 +13,7 @@ const neighborLocations = [
   [-1, 0]
 ];
 
-const Game = ({ speed, rows, cols, running }) => {
+const Game = ({ speed, rows, cols, running, size }) => {
 
 
   const [grid, setGrid] = useState();
@@ -34,7 +34,7 @@ const Game = ({ speed, rows, cols, running }) => {
     setEngine(engine);
     setGrid(engine.world);
 
-  }, [rows, cols]);
+  }, [rows, cols, size]);
   
   useEffect(() => {
     if (running) {
@@ -74,7 +74,7 @@ const Game = ({ speed, rows, cols, running }) => {
       setTimeout(runSimulation, speedRef.current);
     },
     // eslint-disable-next-line
-    [grid, speed],
+    [grid, speed, size],
   )
 
   return (
@@ -84,7 +84,7 @@ const Game = ({ speed, rows, cols, running }) => {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: `repeat(${cols}, 20px)`
+            gridTemplateColumns: `repeat(${cols}, ${size}px)`
           }}
         >
           {grid.map((rows, i) =>
@@ -103,8 +103,8 @@ const Game = ({ speed, rows, cols, running }) => {
                 }, 500)
                 }}
                 style={{
-                  width: 20,
-                  height: 20,
+                  width: size,
+                  height: size,
                   backgroundColor: grid[i][k] ? "#61dafb" : undefined,
                   border: "solid 1px #61dafb"
                 }}

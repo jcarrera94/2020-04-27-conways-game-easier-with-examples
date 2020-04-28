@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Game from './components/game';
+import Slider from "@material-ui/core/Slider";
 
 const speedOptions = [
   { key: 'slowest', text: 'slowest', value: 2500 },
@@ -15,7 +16,8 @@ function App() {
   const [rows, setRows] = useState();
   const [cols, setCols] = useState();
   const [speed, setSpeed] = useState(1000);
-  const [running, setRunning] = useState(false)
+  const [running, setRunning] = useState(false);
+  const [size, setSize] = useState(15);
 
   return (
     <div className="App">
@@ -23,8 +25,8 @@ function App() {
         <h1>Welcome to Conways game of life (Easy version)</h1>
       </header>
       <div className='container'>
+        <h2>Game Controls</h2>
         <section className='section-controls'>
-          <h2>Game Controls</h2>
           <label>
             Rows:
           </label>
@@ -51,8 +53,21 @@ function App() {
           </select>
           <label>Play/Pause: </label>
           <button onClick={() => setRunning(!running)}>{running ? 'stop' : 'play'}</button>
+          <label>Size:</label>
+          <div className='slider'>
+            <Slider
+              defaultValue={size}
+              step={5}
+              marks
+              min={10}
+              max={25}
+              getAriaValueText={value => setSize(value)}
+            />
+          </div>
         </section>
-        <Game rows={rows || 10} cols={cols || 10} speed={speed} running={running} />
+        <section className='section-game'>
+          <Game rows={rows || 10} cols={cols || 10} speed={speed} running={running} size={size} />
+        </section>
       </div>
     </div>
   );
