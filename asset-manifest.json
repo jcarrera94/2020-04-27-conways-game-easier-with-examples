@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/2020-04-27-conways-game-easier-with-examples/static/css/main.7f948b7d.chunk.css",
-    "main.js": "/2020-04-27-conways-game-easier-with-examples/static/js/main.492ff17f.chunk.js",
-    "main.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/main.492ff17f.chunk.js.map",
+    "main.css": "/2020-04-27-conways-game-easier-with-examples/static/css/main.382f3b88.chunk.css",
+    "main.js": "/2020-04-27-conways-game-easier-with-examples/static/js/main.1f92b698.chunk.js",
+    "main.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/main.1f92b698.chunk.js.map",
     "runtime-main.js": "/2020-04-27-conways-game-easier-with-examples/static/js/runtime-main.5badc296.js",
     "runtime-main.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/runtime-main.5badc296.js.map",
-    "static/js/2.c62b1faa.chunk.js": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js",
-    "static/js/2.c62b1faa.chunk.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js.map",
+    "static/js/2.d6e7e426.chunk.js": "/2020-04-27-conways-game-easier-with-examples/static/js/2.d6e7e426.chunk.js",
+    "static/js/2.d6e7e426.chunk.js.map": "/2020-04-27-conways-game-easier-with-examples/static/js/2.d6e7e426.chunk.js.map",
     "index.html": "/2020-04-27-conways-game-easier-with-examples/index.html",
-    "precache-manifest.2fbc9cc4dc9fbb5614d74569e69e2145.js": "/2020-04-27-conways-game-easier-with-examples/precache-manifest.2fbc9cc4dc9fbb5614d74569e69e2145.js",
+    "precache-manifest.0185a9263975d935aff273dec8bedb19.js": "/2020-04-27-conways-game-easier-with-examples/precache-manifest.0185a9263975d935aff273dec8bedb19.js",
     "service-worker.js": "/2020-04-27-conways-game-easier-with-examples/service-worker.js",
-    "static/css/main.7f948b7d.chunk.css.map": "/2020-04-27-conways-game-easier-with-examples/static/css/main.7f948b7d.chunk.css.map",
-    "static/js/2.c62b1faa.chunk.js.LICENSE.txt": "/2020-04-27-conways-game-easier-with-examples/static/js/2.c62b1faa.chunk.js.LICENSE.txt"
+    "static/css/main.382f3b88.chunk.css.map": "/2020-04-27-conways-game-easier-with-examples/static/css/main.382f3b88.chunk.css.map",
+    "static/js/2.d6e7e426.chunk.js.LICENSE.txt": "/2020-04-27-conways-game-easier-with-examples/static/js/2.d6e7e426.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5badc296.js",
-    "static/js/2.c62b1faa.chunk.js",
-    "static/css/main.7f948b7d.chunk.css",
-    "static/js/main.492ff17f.chunk.js"
+    "static/js/2.d6e7e426.chunk.js",
+    "static/css/main.382f3b88.chunk.css",
+    "static/js/main.1f92b698.chunk.js"
   ]
 }
